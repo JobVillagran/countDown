@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: #292929;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Pacifico', cursive;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: white;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.time-block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    color: white;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+    font-size: 40px;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+        font-size: 32px;
+    }
+}
